@@ -174,9 +174,10 @@ footer div img {
 .container .com .map .cel {
   color: red;
 }
-.container .com .map h5 {
+.container .com .map .comunicate {
   padding: 10px;
-  color: black;
+  color: rgb(90, 11, 83);
+  font-size: 30px;
 }
 .container .com .map .mapa {
   width: auto;
