@@ -58,7 +58,8 @@
         }
 
         &:hover #boton {
-            display: block;
+
+            display: inline-block;
             background-color: $gato_azul;
             color: $gato_blanco;
             position: sticky;

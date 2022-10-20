@@ -156,7 +156,7 @@ footer div img {
   width: auto;
   color: aliceblue;
   padding: 10px;
-  background-color: rgb(169, 167, 197);
+  background-color: rgb(23, 11, 197);
 }
 .container .com .comunidad {
   padding: 10px;
@@ -297,7 +297,7 @@ footer div img {
   display: none;
 }
 .cnt #contenedor:hover #boton {
-  display: block;
+  display: inline-block;
   background-color: blue;
   color: white;
   position: -webkit-sticky;
@@ -339,7 +339,7 @@ footer div img {
 }
 
 body {
-  background-image: linear-gradient(to top, rgb(112, 185, 110), rgb(212, 209, 31));
+  background-image: linear-gradient(to top, rgb(226, 235, 225), rgb(255, 255, 176));
 }
 
 hr {
