@@ -1,11 +1,19 @@
 header {
     background-color: $gato_negro;
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     width: 100%;
     height: 120px;
+=======
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
 
     .row {
         width: auto;
@@ -15,11 +23,46 @@ header {
 
         video {
 
+<<<<<<< HEAD
 
             height: 100px;
+=======
+       
+            height: 150px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+       a:hover {
+            color: #ffc824;
+        }
+
+        ul {
+            height: 30px;
+            list-style: none;
+        }
+
+        ul li {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0px 10px;
+        }
+
+        ul li a {
+            padding: 5px;
+            padding-bottom: 2px;
+            text-align: center;
+            display: flex;
+            color: $gato_blanco;
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
         }
 
 
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
 }

@@ -1,11 +1,19 @@
 header {
   background-color: black;
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
   width: 100%;
   height: 120px;
+=======
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 220px;
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
 }
 header .row {
   width: auto;
@@ -14,7 +22,33 @@ header .row {
   align-items: center;
 }
 header .row video {
+<<<<<<< HEAD
   height: 100px;
+=======
+  height: 150px;
+}
+header .row a {
+  text-decoration: none;
+}
+header .row a:hover {
+  color: #ffc824;
+}
+header .row ul {
+  height: 30px;
+  list-style: none;
+}
+header .row ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 10px;
+}
+header .row ul li a {
+  padding: 5px;
+  padding-bottom: 2px;
+  text-align: center;
+  display: flex;
+  color: white;
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
 }
 
 footer {
@@ -200,7 +234,11 @@ footer div img {
   display: flex;
   flex-direction: column;
   justify-content: center;
+<<<<<<< HEAD
   margin: 50px;
+=======
+  margin: 10px;
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
   padding: 10px;
 }
 .adp h1 {
@@ -224,6 +262,7 @@ footer div img {
   justify-content: center;
 }
 .adp .crd .card {
+<<<<<<< HEAD
   background-color: blue;
   width: 250px;
   margin: 30px;
@@ -235,6 +274,15 @@ footer div img {
   font-family: "Nabla", cursive;
   font-family: "Rubik Dirt", cursive;
   color: black;
+=======
+  background-color: aquamarine;
+  width: 250px;
+  margin: 20px;
+}
+.adp .crd h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blue;
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
 }
 
 .tnd {
@@ -285,7 +333,10 @@ footer div img {
   color: white;
   position: -webkit-sticky;
   position: sticky;
+<<<<<<< HEAD
   padding: 10px;
+=======
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
 }
 .cnt #contenedor img {
   padding: 20px;
@@ -305,8 +356,13 @@ footer div img {
 }
 .juguetes #contenedor:hover #boton {
   display: block;
+<<<<<<< HEAD
   background-color: burlywood;
   color: rgb(39, 30, 30);
+=======
+  background-color: red;
+  color: white;
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
   position: -webkit-sticky;
   position: sticky;
 }
@@ -323,7 +379,11 @@ footer div img {
 }
 
 body {
+<<<<<<< HEAD
   background-image: linear-gradient(to top, rgb(226, 235, 225), rgb(245, 245, 143));
+=======
+  background-image: linear-gradient(to top, rgb(226, 235, 225), rgb(255, 255, 176));
+>>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
 }
 
 hr {
