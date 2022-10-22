@@ -1,0 +1,55 @@
+@mixin center {
+    text-align: center;
+    align-items: center;
+}
+
+.adp {
+    @include center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    padding: 10px;
+
+    h1 {
+        color: $gato_negro;
+        font-size: 50px;
+        font-family: 'Nabla', cursive;
+        font-family: 'Rubik Dirt', cursive;
+    }
+
+    h2 {
+        color: $gato_azul
+    }
+
+
+    p {
+        color: $gato_negro;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 20px;
+    }
+
+    .crd {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+       
+        .card {
+            background-color: $gato_azul;
+            width: 250px;
+            margin: 30px;
+            &:hover{
+                transform: scale(1.1,1.1);
+            }
+        }
+        h5{
+            font-family: 'Nabla', cursive;
+                font-family: 'Rubik Dirt', cursive;
+            color: $gato_negro;
+        }
+    }
+
+
+}

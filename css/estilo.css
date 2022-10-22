@@ -1,0 +1,525 @@
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+}
+header .row {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .row video {
+  height: 100px;
+}
+
+footer {
+  border-style: double;
+  display: flex;
+  flex-direction: row;
+  height: 130px;
+  background-color: white;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+}
+footer div img {
+  height: 100px;
+}
+
+.container .raz {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+}
+.container .raz h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.container .raz h2 {
+  color: blue;
+}
+.container .raz p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .raz .text1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  text-align: center;
+  align-items: center;
+}
+.container .raz .text2 {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.container .hist {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+}
+.container .hist h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.container .hist h2 {
+  color: blue;
+}
+.container .hist p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .hist .egipto {
+  color: rgb(106, 107, 163);
+}
+.container .hist .egipto2 {
+  padding-top: 15px;
+  color: rgb(47, 51, 90);
+}
+.container .hist .egipto3 {
+  text-align: center;
+  align-items: center;
+  line-height: 2;
+}
+.container .hist .imgtexto img {
+  width: 100px;
+}
+
+.container .com {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+  padding: 20px;
+}
+.container .com h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.container .com h2 {
+  color: blue;
+}
+.container .com p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container .com form {
+  text-align: left;
+  width: auto;
+  color: aliceblue;
+  padding: 10px;
+  background-color: rgb(23, 11, 197);
+}
+.container .com .comunidad {
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+.container .com .map {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  border-color: black 5px;
+}
+.container .com .map .cel {
+  color: red;
+}
+.container .com .map .comunicate {
+  padding: 10px;
+  color: rgb(90, 11, 83);
+  font-size: 30px;
+}
+.container .com .map .mapa {
+  width: auto;
+}
+
+.red {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.red h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.red h2 {
+  color: blue;
+}
+.red p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.red .redes {
+  text-align: center;
+  align-items: center;
+}
+.red .imgred {
+  text-align: center;
+  padding-left: 10px;
+}
+
+.adp {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 10px;
+}
+.adp h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.adp h2 {
+  color: blue;
+}
+.adp p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
+}
+.adp .crd {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.adp .crd .card {
+  background-color: blue;
+  width: 250px;
+  margin: 30px;
+}
+.adp .crd .card:hover {
+  transform: scale(1.1, 1.1);
+}
+.adp .crd h5 {
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+  color: black;
+}
+
+.tnd {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+.tnd h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.tnd h2 {
+  color: blue;
+}
+.tnd p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tittienda {
+  background-color: blue;
+  text-align: center;
+  width: 100%;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.cnt {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  justify-content: center;
+  text-align: center;
+}
+.cnt #contenedor #boton {
+  display: none;
+}
+.cnt #contenedor:hover #boton {
+  display: inline-block;
+  background-color: blue;
+  color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 10px;
+}
+.cnt #contenedor img {
+  padding: 20px;
+  width: 180px;
+}
+
+.juguetes {
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.juguetes #contenedor #boton {
+  display: none;
+}
+.juguetes #contenedor:hover #boton {
+  display: block;
+  background-color: burlywood;
+  color: rgb(39, 30, 30);
+  position: -webkit-sticky;
+  position: sticky;
+}
+.juguetes #contenedor img {
+  padding: 20px;
+  width: 200px;
+  margin: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, rgb(226, 235, 225), rgb(245, 245, 143));
+}
+
+hr {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+}
+
+.container .inicio {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px;
+  padding: 20px;
+}
+.container .inicio img {
+  border-radius: 50px;
+}
+.container .inicio h1 {
+  color: black;
+  font-size: 50px;
+  font-family: "Nabla", cursive;
+  font-family: "Rubik Dirt", cursive;
+}
+.container .inicio h2 {
+  color: blue;
+  padding-top: 15px;
+}
+.container .inicio p {
+  color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 50px;
+  padding-top: 15px;
+}
+.container .inicio a:hover {
+  text-decoration: none;
+  color: red;
+}
+.container .inicio .carru {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.container .inicio .carru h3 {
+  font-family: "Rubik Dirt", cursive;
+  font-family: "Nabla", cursive;
+  font-family: "Alkalami", serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+.container .inicio .carru .carousel-control-prev-icon {
+  background-color: black;
+}
+.container .inicio .carru .carousel-control-next-icon {
+  background-color: black;
+}
+.container .inicio .leyenda2 {
+  background-color: rgba(205, 236, 236, 0.658);
+  text-align: center;
+  line-height: 2;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container .inicio .leyenda {
+  padding: 50px;
+  margin: 50px;
+  text-align: center;
+  align-items: center;
+}
+.container .inicio .leyenda img {
+  border-radius: 50px;
+}
+.container .inicio .leyenda h4 {
+  padding: 10px;
+}
+.container .inicio .cine {
+  margin: 50px;
+  text-align: center;
+  align-items: center;
+}
+.container .inicio .cine h4 {
+  padding: 10px;
+}
+.container .inicio .cine img {
+  border-radius: 40px;
+}
+.container .inicio .cine .modal-content {
+  margin: 10px;
+  justify-content: center;
+}
+.container .inicio .cine .modal-content img {
+  padding: 5px;
+  width: auto;
+  border-radius: 50px;
+}
+.container .inicio .cine .modal-content p {
+  padding: 5px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#anuncio {
+  position: fixed;
+  top: 280px;
+  right: 20px;
+}
+#anuncio:hover .x {
+  font-weight: bold;
+  color: red;
+  font-size: 20px;
+}
+#anuncio p {
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+#anuncio img {
+  border-radius: 30px solid;
+}
+
+@media only screen and (max-width: 1000px) {
+  footer {
+    border-style: none;
+  }
+  #anuncio {
+    display: none;
+  }
+  form {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 850px) {
+  .adp .crd {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 500px) {
+  header video {
+    width: 100px;
+  }
+  .form-group {
+    width: 200px;
+  }
+  .com form {
+    width: 100%;
+  }
+  .com .map .mapa {
+    width: 220px;
+  }
+  .imgred {
+    height: 200px;
+  }
+  #carouselExampleControls img {
+    width: 200px;
+  }
+  .adp .crd {
+    display: flex;
+    flex-direction: column;
+  }
+  .leyenda img {
+    width: 200px;
+  }
+  .leyenda h3 {
+    font-size: 5px;
+  }
+  .juguetes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+  }
+  .juguetes img {
+    text-align: center;
+  }
+  .cnt {
+    display: flex;
+    flex-direction: column;
+  }
+  .cine img {
+    width: 200px;
+  }
+  .cine h3 {
+    font-weight: 5px;
+  }
+  footer div {
+    display: inline-block;
+    text-align: center;
+  }
+  footer div img {
+    width: 75px;
+  }
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,296 @@
+@import "_vars.scss";
+
+@mixin center {
+    text-align: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to top, rgb(226, 235, 225) , rgb(245, 245, 143));
+}
+
+
+    hr {
+
+        height: 3px;
+        width: 100%;
+        background-color: $gato_negro;
+    }
+
+    .container {
+        .inicio {
+            @include center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 50px;
+            padding: 20px;
+        
+            img{
+                border-radius: 50px;
+            }
+            
+           
+                
+            
+            h1 {
+                
+                color: $gato_negro;
+                font-size: 50px;
+                font-family: 'Nabla', cursive;
+                font-family: 'Rubik Dirt', cursive;
+            }
+
+            h2 {
+                color: $gato_azul;
+                padding-top: 15px;
+            }
+
+
+            p {
+                color: $gato_negro;
+                font-size: 20px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                padding-bottom: 50px;
+                padding-top: 15px;
+
+            }
+
+            a:hover {
+                
+                text-decoration: none;
+                color: $gato_rojo;
+            }
+            .carru{
+                display: flex;
+               justify-content: center;
+                @include center;
+
+                 h3 {
+                
+                font-family: 'Rubik Dirt', cursive;
+                font-family: 'Nabla', cursive;
+                font-family: 'Alkalami', serif;
+                font-size: 30px;
+                text-align: center;
+                color: $gato_negro;
+               
+
+
+            }
+
+
+            .carousel-control-prev-icon {
+
+                background-color: $gato_negro
+            }
+
+            .carousel-control-next-icon {
+                background-color: $gato_negro;
+            }
+
+            }
+           
+
+            .leyenda2 {
+                background-color: rgba(205, 236, 236, 0.658);
+                text-align: center;
+                line-height: 2.0;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+
+            .leyenda {
+                padding: 50px;
+                margin: 50px;
+               
+                @include center;
+                img{
+                    border-radius: 50px;
+                    
+                }
+
+                
+
+                h4 {
+                    padding: 10px;
+                }
+            }
+
+            .cine {
+                margin: 50px;
+                @include center;
+
+                h4 {
+                    padding: 10px;
+                }
+                img{
+                    border-radius: 40px;
+                }
+
+                .modal-content {
+                    margin: 10px;
+                    justify-content: center;
+
+                    img {
+                        padding: 5px;
+                        width: auto;
+                        border-radius: 50px;
+
+                    }
+
+                    p {
+
+                        padding: 5px;
+                        text-align: center;
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+                    }
+                }
+            }
+        }
+    }
+
+    #anuncio {
+        position: fixed;
+        top: 280px;
+        right: 20px;
+
+        &:hover .x {
+            font-weight: bold;
+            color: $gato_rojo;
+            font-size: 20px;
+        }
+
+        p {
+            text-align: center;
+            color: $gato_negro;
+            font-style: italic;
+        }
+
+        img {
+            border-radius: 30px solid;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 1000px) {
+        footer {
+            border-style: none;
+        }
+
+        #anuncio {
+            display: none;
+        }
+       
+        form {
+            width: 100%;
+        }
+      
+    }
+
+    @media only screen and (max-width: 850px){
+        .adp{
+            .crd{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+
+    }
+
+    @media only screen and (max-width: 500px) {
+        header{
+            video{
+                width: 100px;
+            }
+        }    
+        .form-group{
+            width: 200px;
+        }
+        
+        .com{
+                form{
+                width: 100%;
+            }
+            .map{
+                  .mapa{
+                    width: 220px;
+                  }
+                    
+                
+            }
+        }
+            .imgred{
+                height: 200px;
+            }
+            #carouselExampleControls{
+                img{
+                    width: 200px;
+                }
+            }
+            .adp{
+                .crd{
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+            .leyenda{
+                
+                img{
+                    width: 200px;
+                }
+                h3{
+                    font-size: 5px;
+                }
+                
+            }
+            .juguetes{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 0px;
+                padding: 0;
+                text-align: center;
+                img{
+                    text-align: center;
+                }
+
+            }
+            .cnt{
+                display: flex;
+                flex-direction: column;
+            }
+            .cine{
+                
+                img{
+                    width: 200px;
+                }
+                h3{
+                    font-weight: 5px;
+
+                }
+                
+            }
+        footer {
+            div {
+
+                display: inline-block;
+                text-align: center;
+                img{
+                    width: 75px;
+                }
+            }
+
+        }
+        
+
+    }

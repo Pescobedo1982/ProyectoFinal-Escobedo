@@ -1,0 +1,41 @@
+@mixin center{
+    text-align: center;
+    align-items: center;
+}
+
+    .red{
+        @include center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+        h1 {
+            
+            color: $gato_negro;
+            font-size: 50px;
+            font-family: 'Nabla', cursive;
+            font-family: 'Rubik Dirt', cursive;
+        }
+
+        h2 {
+            color: $gato_azul
+        }
+
+
+        p {
+            color: $gato_negro;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+        .redes {
+            @include center;
+        }
+
+        .imgred{
+            text-align: center;
+            padding-left: 10px;
+        }
+
+    }
