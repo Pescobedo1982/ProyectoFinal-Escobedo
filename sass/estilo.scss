@@ -12,11 +12,7 @@
 }
 
 body {
-<<<<<<< HEAD
     background-image: linear-gradient(to top, rgb(226, 235, 225) , rgb(245, 245, 143));
-=======
-    background-image: linear-gradient(to top, rgb(226, 235, 225) , rgb(255, 255, 176));
->>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
 }
 
 
@@ -35,16 +31,16 @@ body {
             justify-content: center;
             margin: 50px;
             padding: 20px;
-        
+
             img{
                 border-radius: 50px;
             }
-            
-           
-                
-            
+
+
+
+
             h1 {
-                
+
                 color: $gato_negro;
                 font-size: 50px;
                 font-family: 'Nabla', cursive;
@@ -67,7 +63,7 @@ body {
             }
 
             a:hover {
-                
+
                 text-decoration: none;
                 color: $gato_rojo;
             }
@@ -77,14 +73,14 @@ body {
                 @include center;
 
                  h3 {
-                
+
                 font-family: 'Rubik Dirt', cursive;
                 font-family: 'Nabla', cursive;
                 font-family: 'Alkalami', serif;
                 font-size: 30px;
                 text-align: center;
                 color: $gato_negro;
-               
+
 
 
             }
@@ -100,7 +96,7 @@ body {
             }
 
             }
-           
+
 
             .leyenda2 {
                 background-color: rgba(205, 236, 236, 0.658);
@@ -112,14 +108,14 @@ body {
             .leyenda {
                 padding: 50px;
                 margin: 50px;
-               
+
                 @include center;
                 img{
                     border-radius: 50px;
-                    
+
                 }
 
-                
+
 
                 h4 {
                     padding: 10px;
@@ -193,11 +189,11 @@ body {
         #anuncio {
             display: none;
         }
-       
+
         form {
             width: 100%;
         }
-      
+
     }
 
     @media only screen and (max-width: 850px){
@@ -220,7 +216,7 @@ body {
         .form-group{
             width: 200px;
         }
-        
+
         .com{
                 form{
                 width: 100%;
@@ -229,8 +225,8 @@ body {
                   .mapa{
                     width: 220px;
                   }
-                    
-                
+
+
             }
         }
             .imgred{
@@ -248,14 +244,14 @@ body {
                 }
             }
             .leyenda{
-                
+
                 img{
                     width: 200px;
                 }
                 h3{
                     font-size: 5px;
                 }
-                
+
             }
             .juguetes{
                 display: flex;
@@ -274,7 +270,7 @@ body {
                 flex-direction: column;
             }
             .cine{
-                
+
                 img{
                     width: 200px;
                 }
@@ -282,7 +278,7 @@ body {
                     font-weight: 5px;
 
                 }
-                
+
             }
         footer {
             div {
@@ -295,9 +291,17 @@ body {
             }
 
         }
-<<<<<<< HEAD
-        
-=======
->>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
+        @media only screen and (max-width: 345px){
+            footer {
+                div {
+    
+                    img{
+                        width: 50px;
+                        height: 90px;
+                    }
+                }
+    
+            }
+        }
 
     }

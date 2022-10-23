@@ -8,11 +8,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-<<<<<<< HEAD
     margin: 50px;
-=======
-    margin: 10px;
->>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
     padding: 10px;
 
     h1 {
@@ -35,13 +31,12 @@
     }
 
     .crd {
-        
+
         display: flex;
         flex-direction: row;
         justify-content: center;
-       
+
         .card {
-<<<<<<< HEAD
             background-color: $gato_azul;
             width: 250px;
             margin: 30px;
@@ -53,15 +48,6 @@
             font-family: 'Nabla', cursive;
                 font-family: 'Rubik Dirt', cursive;
             color: $gato_negro;
-=======
-            background-color: aquamarine;
-            width: 250px;
-            margin: 20px;
-        }
-        h5{
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: $gato_azul;
->>>>>>> fc0bf6780a696f718e6dd36c0527cf40e8c168d5
         }
     }
 
